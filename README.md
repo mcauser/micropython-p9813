@@ -1,4 +1,4 @@
-# P9813
+# MicroPython P9813
 
 A MicroPython library for P9813 RGB LED drivers.
 
