@@ -16,7 +16,7 @@ $ ampy put p9813.py
 
 **Basic usage**
 
-```
+```python
 from machine import Pin
 import p9813
 
@@ -75,3 +75,7 @@ GND  | GND (black)
 * [micropython.org](http://micropython.org)
 * [Adafruit Ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)
 * [P9813 datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Chainable_RGB_LED/master/res/P9813_datasheet.pdf)
+
+## License
+
+Licensed under the [MIT License](http://opensource.org/licenses/MIT).
