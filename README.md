@@ -74,7 +74,7 @@ GND  | GND (black)
 * [WeMos D1 Mini](https://wiki.wemos.cc/products:d1:d1_mini)
 * [micropython.org](http://micropython.org)
 * [Adafruit Ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)
-* [P9813 datasheet](https://raw.githubusercontent.com/SeeedDocument/Grove-Chainable_RGB_LED/master/res/P9813_datasheet.pdf)
+* [P9813 datasheet](docs/P9813_datasheet.pdf)
 
 ## License
 
