@@ -6,13 +6,35 @@ For example, the Seeed Studio [Grove - Chainable RGB LED](https://wiki.seeedstud
 
 ![demo](docs/demo.jpg)
 
-## Example
 
-Copy the file to your device, using ampy, webrepl or compiling and deploying. eg.
+### Installation
 
+Using mip via mpremote:
+
+```bash
+$ mpremote mip install github:mcauser/micropython-p9813
+$ mpremote mip install github:mcauser/micropython-p9813/examples
 ```
-$ ampy put p9813.py
+
+Using mip directly on a WiFi capable board:
+
+```python
+>>> import mip
+>>> mip.install("github:mcauser/micropython-p9813")
+>>> mip.install("github:mcauser/micropython-p9813/examples")
 ```
+
+Manual installation:
+
+Copy `src/p9813.py` to the root directory of your device.
+
+
+## SPI Version
+
+You can use either HSPI or SPI. This version is significantly faster than the
+bit-bang version. MISO is not used. The LED driver is write only.
+
+### SPI Example
 
 **Basic usage**
 
@@ -126,7 +148,15 @@ chain[2:] = [(0, 0, 255)] * 8
 chain.reset()
 ```
 
-See [p9813_examples.py](p9813_examples.py) and [examples](examples/) for more.
+For more detailed examples, see [examples](/examples).
+
+If you mip installed them above, you can run them like so:
+
+```python
+import p9813.examples.basic
+```
+
+
 ## Chaining
 
 You can connect multiple LEDs together to form a chain.

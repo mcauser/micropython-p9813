@@ -1,0 +1,26 @@
+{
+  "urls": [
+    ["p9813/examples/auto_write.py", "github:mcauser/micropython-p9813/examples/auto_write.py"],
+    ["p9813/examples/basic.py", "github:mcauser/micropython-p9813/examples/basic.py"],
+    ["p9813/examples/bitbang.py", "github:mcauser/micropython-p9813/examples/bitbang.py"],
+    ["p9813/examples/bounce.py", "github:mcauser/micropython-p9813/examples/bounce.py"],
+    ["p9813/examples/color_wipe.py", "github:mcauser/micropython-p9813/examples/color_wipe.py"],
+    ["p9813/examples/cycle.py", "github:mcauser/micropython-p9813/examples/cycle.py"],
+    ["p9813/examples/fade.py", "github:mcauser/micropython-p9813/examples/fade.py"],
+    ["p9813/examples/fill.py", "github:mcauser/micropython-p9813/examples/fill.py"],
+    ["p9813/examples/hw_spi.py", "github:mcauser/micropython-p9813/examples/hw_spi.py"],
+    ["p9813/examples/level.py", "github:mcauser/micropython-p9813/examples/level.py"],
+    ["p9813/examples/rainbow_cycle.py", "github:mcauser/micropython-p9813/examples/rainbow_cycle.py"],
+    ["p9813/examples/rainbow_fade.py", "github:mcauser/micropython-p9813/examples/rainbow_fade.py"],
+    ["p9813/examples/rainbow.py", "github:mcauser/micropython-p9813/examples/rainbow.py"],
+    ["p9813/examples/random.py", "github:mcauser/micropython-p9813/examples/random.py"],
+    ["p9813/examples/rgb.py", "github:mcauser/micropython-p9813/examples/rgb.py"],
+    ["p9813/examples/slice.py", "github:mcauser/micropython-p9813/examples/slice.py"],
+    ["p9813/examples/sw_spi.py", "github:mcauser/micropython-p9813/examples/sw_spi.py"],
+    ["p9813/examples/theater_chase_rainbow.py", "github:mcauser/micropython-p9813/examples/theater_chase_rainbow.py"],
+    ["p9813/examples/theater_chase.py", "github:mcauser/micropython-p9813/examples/theater_chase.py"],
+    ["p9813/examples/traffic_lights.py", "github:mcauser/micropython-p9813/examples/traffic_lights.py"]
+  ],
+  "deps": [],
+  "version": "2.0.0"
+}

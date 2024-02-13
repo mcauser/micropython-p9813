@@ -1,0 +1,7 @@
+{
+  "urls": [
+    ["p9813/__init__.py", "github:mcauser/micropython-p9813/src/p9813.py"]
+  ],
+  "deps": [],
+  "version": "2.0.0"
+}
